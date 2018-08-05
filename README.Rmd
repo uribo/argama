@@ -27,9 +27,6 @@ docker-compose up
 Open `loccalhost:8787` in blowswer and go to rproject (your blog project).
 
 ```{r, eval = FALSE, echo = TRUE}
-# Install hugo
-blogdown::install_hugo(version = "0.35")
-
 # Serve site (already setup hugoe and default blog themes)
 blogdown::serve_site()
 ```
