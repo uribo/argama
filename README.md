@@ -19,8 +19,13 @@ operation easier on the team.
 
 ## How to use
 
-Download this repository as .zip archives. Running container using
-`docker-compose`.
+Download this repository as `.zip` archives. Then, you write pass-phase
+for login to rstudio-server. We recommend like a below files.
+
+    # save .env
+    PASSWORD=<your password>
+
+Running container using `docker-compose`.
 
 ``` bash
 cd argama
